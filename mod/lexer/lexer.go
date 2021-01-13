@@ -1,5 +1,9 @@
 package lexer
 
-func make_tokens(source string) string { //[]Token {
-	return "hello"
+import (
+	t "github.com/davibelini/yahtml/mod/tokens"
+)
+
+func make_tokens(source string) []t.Token {
+	return []t.Token{}
 }
