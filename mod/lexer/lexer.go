@@ -4,6 +4,6 @@ import (
 	t "github.com/davibelini/yahtml/mod/tokens"
 )
 
-func make_tokens(source string) []t.Token {
-	return []t.Token{}
+func GenerateTokens(source string) []t.Token {
+	return []t.Token{}	// loop through characters, make and return tokens
 }
